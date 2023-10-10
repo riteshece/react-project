@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import studentList from './components/StudentsList'
+import StudentList from './components/StudentsList'
 import './App.css'
 
 function App() {
@@ -21,9 +21,9 @@ function App() {
     Counter
   </h1>
   <p>{counter}</p>
-  <button onClick={increaseCount}>increase</button>
+  <button className='button'onClick={increaseCount}>increase</button>
  <button onClick={decreaseCount}>decrease</button>
- <studentList/>
+ <StudentList/>
  </div>
 
   );
