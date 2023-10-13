@@ -1,5 +1,6 @@
 .List-item-container {
     display: flex;
+    margin-bottom: 10px;
 
 }
 .button{
@@ -7,4 +8,7 @@
 }
 .student-id{
     margin-right: 5px;
+}
+.name{
+    margin-right:20px  ;
 }
