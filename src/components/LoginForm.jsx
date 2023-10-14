@@ -76,7 +76,7 @@ function LoginForm() {
           value={user.password}
           onChange={changeHandler}
         />
-        <button type="submit">Submit</button>
+        <button type="submit">Submittttt</button>
       </form>
     </div>
   );
